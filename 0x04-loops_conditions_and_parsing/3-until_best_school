@@ -2,8 +2,8 @@
 # This script is displaying "Holberton School" 10 times
 
 i=0
-while (( i < 10 ));
+while [ sx -gt 9 ]
 do
-    echo "Best School";
-    (( i++ ));
+    echo "Best School"
+    (( x++ ))
 done
