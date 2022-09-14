@@ -7,8 +7,10 @@ do
     if [ $x -eq 4 ]
     then
 	echo "bad luck"
-elif [ $x -ep 8 ]
+elif [ $x -eq 8 ] 
+then
     echo "good luck" 
 else echo "Best School"
-    (( i++ ))
-done
+    fi
+    (( i++ )) 
+done 
