@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
 x=0
-while [ $x -gt 9 ]
+until [ $x -gt 9 ]
 do
     echo "Best School"
     (( x++ ))
