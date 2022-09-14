@@ -1,4 +1,4 @@
-#!/user/bin/env bash
+#!/usr/bin/env bash
 #Loops 1
 x=1
 while [ $x -le 10 ]
